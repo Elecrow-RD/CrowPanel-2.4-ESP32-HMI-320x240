@@ -1,6 +1,6 @@
 1, Product picture
 
-![2.4_hmi_display](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\2.4_hmi_display.jpg)
+![2 4_hmi_display](https://github.com/user-attachments/assets/9a3e3216-009b-40fb-80df-afd17b909d3a)
 
 2, Product version number
 
@@ -43,12 +43,12 @@ C:\Users\Documents\Arduino\libraries\
 
 
 2.Open the Arduino IDE
+![arduino1](https://github.com/user-attachments/assets/53a44b6e-cf7e-4a7d-8f2d-00c37cb20729)
 
-![arduino1](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\arduino1.jpg)
+
 
 3.Open the code configuration environment and burn it
-
-![arduino2](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\arduino2.jpg)
+![arduino2](https://github.com/user-attachments/assets/e478382b-985e-492d-ab27-11ebc96a9724)
 
 
 
