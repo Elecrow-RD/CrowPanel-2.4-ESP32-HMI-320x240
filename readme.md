@@ -1,0 +1,91 @@
+1, Product picture
+
+![2.4_hmi_display](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\2.4_hmi_display.jpg)
+
+2, Product version number
+
+|      | Hardware | Software | Remark |
+| ---- | -------- | -------- | ------ |
+| 1    | V1.0     | V1.0     | latest |
+
+3, product information
+
+- Model: 2.4 inches-CrowPanel ESP32 display
+- Main Processor: ESP32-WROOM-32-N4
+- Resolution: 240*320
+- Touch Type: Resistive Touch Screen
+- Display Type: TN Panel
+- Screen: TFT-LCD Screen
+- Display driver: ILI9341V
+- External power supply: DC5V-2A
+- Interface: 1*TF Card Slot, 1* I2C, 1* GPIO, 1*Speak, 1* UART1, 1*UART0
+- Button: BOOT Button and Reset Button
+- Active Area: 36.72*48.96mm(W*H)
+- Working Temperature: -20℃～70℃
+- Storage Temperature: -30℃～80℃
+
+4, Use the driver module
+
+| Name | dependency library |
+| ---- | ------------------ |
+| LVGL | lvgl/lvgl@8.3.3    |
+
+5,Quick Start
+
+##### Arduino IDE starts
+
+1.Download the library files used by this product to the 'libraries' folder.
+
+C:\Users\Documents\Arduino\libraries\
+
+![2](https://github.com/user-attachments/assets/86c568bb-3921-4a07-ae91-62d7ce752e50)
+
+
+
+2.Open the Arduino IDE
+
+![arduino1](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\arduino1.jpg)
+
+3.Open the code configuration environment and burn it
+
+![arduino2](F:\wiki\crowpanel esp32 hmi display\CrowPanel 2.4-ESP32 HMI 320x240\arduino2.jpg)
+
+
+
+##### ESP-IDF starts
+
+1.Right-click on an empty space in the project folder and select "Open with VS Code" to open the project.
+
+
+
+![4](https://github.com/user-attachments/assets/a842ad62-ed8b-49c0-bfda-ee39102da467)
+
+2.In the IDF plug-in, select the port, then compile and flash
+![5](https://github.com/user-attachments/assets/76b6182f-0998-4496-920d-d262a5142df3)
+
+
+
+6,Folder structure.
+
+|--3D file： Contains 3D model files (.stp) for the hardware. These files can be used for visualization, enclosure design, or integration into CAD software.
+
+|--Datasheet: Includes datasheets for components used in the project, providing detailed specifications, electrical characteristics, and pin configurations.
+
+|--Eagle_SCH&PCB: Contains **Eagle CAD** schematic (`.sch`) and PCB layout (`.brd`) files. These are used for circuit design and PCB manufacturing.
+
+|--example: Provides example code and projects to demonstrate how to use the hardware and libraries. These examples help users get started quickly.
+
+|--factory_firmware: Stores pre-compiled factory firmware that can be directly flashed onto the device. This ensures the device runs the default functionality.
+
+|--factory_sourcecode: Contains the source code for the factory firmware, allowing users to modify and rebuild the firmware as needed.
+
+7,Pin definition
+
+#define SD_MOSI 23
+#define SD_MISO 19
+#define SD_SCK 18
+#define SD_CS 5
+
+iic:
+
+  Wire.begin(22, 21);
