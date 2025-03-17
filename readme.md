@@ -82,9 +82,13 @@ C:\Users\Documents\Arduino\libraries\
 7,Pin definition
 
 #define SD_MOSI 23
+
 #define SD_MISO 19
+
 #define SD_SCK 18
+
 #define SD_CS 5
+
 
 iic:
 
