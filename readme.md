@@ -65,6 +65,26 @@ C:\Users\Documents\Arduino\libraries\
 
 
 
+##### PlatformIO starts
+
+1.Right-click on an empty space in the project folder and select "Open with VS Code" to open the project.
+
+![4](https://github.com/user-attachments/assets/a842ad62-ed8b-49c0-bfda-ee39102da467)
+
+2.In the PlatformIO plug-in, select the port, then compile and flash
+
+![platformIO](./platformIO.jpg)
+
+##### Micropython starts
+
+1,Right-click on an empty space in the project folder and select "Thonny" to open the project.
+
+![thonny](./thonny.jpg)
+
+2,In thonny software, select the master and port, then run the program
+
+![thonny2](./thonny2.jpg)
+
 6,Folder structure.
 
 |--3D file： Contains 3D model files (.stp) for the hardware. These files can be used for visualization, enclosure design, or integration into CAD software.
@@ -93,3 +113,19 @@ C:\Users\Documents\Arduino\libraries\
 iic:
 
   Wire.begin(22, 21);
+
+\#define TFT_BL   27            // LED back-light control pin
+
+#define TFT_MISO 12 
+
+#define TFT_MOSI 13 // In some display driver board, it might be written as "SDA" and so on. 
+
+#define TFT_SCLK 14 #define TFT_CS   15  // Chip select control pin 
+
+#define TFT_DC   2  // Data Command control pin 
+
+#define TFT_RST  -1  // Reset pin (could connect to Arduino RESET pin) 
+
+#define TFT_BL   27  // LED back-light 
+
+#define TOUCH_CS 33     // Chip select pin (T_CS) of touch screen
