@@ -21,7 +21,7 @@ Check whether the materials on the PCBA board are defective. Such as less materi
 
 
 
-For the  Crowpanel 2.8 HMI ESP32 Display, the chip select ESP32:
+For the  Crowpanel 2.4 HMI ESP32 Display, the chip select ESP32:
 
 ![firmware1](https://github.com/user-attachments/assets/cd178e01-45b8-46bb-8434-bd1ea500733c)
 
