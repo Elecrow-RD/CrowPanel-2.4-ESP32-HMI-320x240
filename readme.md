@@ -70,7 +70,7 @@ C:\Users\Documents\Arduino\libraries\
 
 2.In the IDF plug-in, select the port, then compile and flash
 
-![5](https://github.com/user-attachments/assets/76b6182f-0998-4496-920d-d262a5142df3)
+<img width="930" height="587" alt="image" src="https://github.com/user-attachments/assets/e1274c2a-d145-410d-ba2a-7217a12975df" />
 
 
 
