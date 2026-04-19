@@ -24,9 +24,9 @@
 - Screen: TFT-LCD Screen
 - Display driver: ILI9341V
 - External power supply: DC5V-2A
-- Interface: 1*TF Card Slot, 1* I2C, 1* GPIO, 1*Speak, 1* UART1, 1*UART0
+- Interface: 1\*TF Card Slot, 1* I2C, 1* GPIO, 1\*Speak, 1* UART1, 1*UART0
 - Button: BOOT Button and Reset Button
-- Active Area: 36.72*48.96mm(W*H)
+- Active Area: 36.72\*48.96mm(W*H)
 - Working Temperature: -20℃～70℃
 - Storage Temperature: -30℃～80℃
 
