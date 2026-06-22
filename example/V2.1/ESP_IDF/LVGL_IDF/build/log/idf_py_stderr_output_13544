@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v5.5.4\venv\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=0 G:\basic HMI\2.4inch\ESP_IDF\LVGL_IDF
+warning: the default selection TFT_SPI_2_HOST (undefined) of <choice TFT_SPI_PORT> (defined at G:/basic HMI/2.4inch/ESP_IDF/LVGL_IDF/components/TFT_eSPI/Kconfig:216) is not contained in the choice
+ESP Insights Project commit: HEAD-HASH-NOTFOUND
+ESP RainMaker Project commit: HEAD-HASH-NOTFOUND
