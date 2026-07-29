@@ -1,0 +1,27 @@
+.pio/build/denky32/lib077/lvgl/misc/cache/_lv_cache_lru_rb.c.o: \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/_lv_cache_lru_rb.c \
+ C:/Users/DNZJ-172/.platformio/packages/framework-arduinoespressif32-libs/esp32/include/soc/esp32/register/soc/gpio_struct.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/_lv_cache_lru_rb.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/lv_cache_entry.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/lv_os.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/../lv_conf_internal.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/../lv_conf_kconfig.h \
+ C:/Users/DNZJ-172/.platformio/packages/framework-arduinoespressif32-libs/esp32/dio_qspi/include/sdkconfig.h \
+ C:/Users/DNZJ-172/.platformio/packages/framework-arduinoespressif32-libs/esp32/include/esp_common/include/esp_attr.h \
+ include/lv_conf.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/../misc/lv_types.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/../misc/../lv_conf_internal.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../osal/lv_os_none.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_types.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/lv_cache_private.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../stdlib/lv_sprintf.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../stdlib/lv_string.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../stdlib/../lv_conf_internal.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_ll.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_rb.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_types.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_assert.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../lv_conf_internal.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../lv_log.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../stdlib/lv_mem.h \
+ .pio/libdeps/denky32/lvgl/src/misc/cache/../../stdlib/../misc/lv_types.h
